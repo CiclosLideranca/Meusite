@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclos Liderança | Consultoria e Comunidade</title>
+    <title>Ciclos Liderança |Comunidade</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,7 +85,7 @@
                 Vamos criar juntos um ecossistema de apoio mútuo para líderes que buscam crescimento, partilha e conexão genuína. Chegou a hora de quebrar o ciclo da solidão na liderança.
             </p>
             <a href="#solution" class="mt-10 px-8 py-4 bg-violet-600 text-white font-bold text-lg rounded-lg shadow-lg hover:bg-violet-700 transition-transform transform hover:scale-105">
-                CONHEÇA AS SOLUÇÕES
+               Entrar na comunidade
             </a>
         </section>
 
@@ -145,124 +145,6 @@
             <div class="flex justify-between items-start mb-6">
                 <h2 id="modal-title" class="text-2xl font-bold text-slate-900">Formulário de Interesse</h2>
                 <button id="close-form-button" class="text-slate-500 hover:text-slate-800 text-3xl leading-none">&times;</button>
-            </div>
-
-            <!-- Formulário: Consultoria para Líderes -->
-            <div id="form-leaders" class="form-container">
-                <form action="https://formspree.io/f/xjkodgwp" method="POST">
-                    <input type="hidden" name="solution_type" value="Consultoria para Líderes">
-                    <div class="space-y-4">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="leaders-name" class="block text-slate-700 font-medium mb-2">Nome</label>
-                                <input type="text" id="leaders-name" name="name" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                             <div>
-                                <label for="leaders-email" class="block text-slate-700 font-medium mb-2">E-mail</label>
-                                <input type="email" id="leaders-email" name="email" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="leaders-phone" class="block text-slate-700 font-medium mb-2">Telefone</label>
-                                <input type="tel" id="leaders-phone" name="phone" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                            <div>
-                                <label for="leaders-role" class="block text-slate-700 font-medium mb-2">Cargo</label>
-                                <input type="text" id="leaders-role" name="role" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                        </div>
-                         <div>
-                            <label for="leaders-time-in-role" class="block text-slate-700 font-medium mb-2">Há quanto tempo está no cargo?</label>
-                            <input type="text" id="leaders-time-in-role" name="time_in_role" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                        </div>
-                        <div>
-                            <label class="block text-slate-700 font-medium mb-2">Experiência anterior</label>
-                            <select name="previous_experience" class="w-full p-3 border border-slate-300 rounded-lg bg-white" required>
-                                <option value="" disabled selected>Selecione uma opção</option>
-                                <option value="primeira_lideranca">É minha primeira liderança</option>
-                                <option value="nova_equipe">Tenho experiência mas estou assumindo uma nova equipe</option>
-                                <option value="mais_de_1_ano">Tenho experiência de mais de 1 ano</option>
-                                <option value="mais_de_2_anos">Tenho experiência maior que 2 anos</option>
-                            </select>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="leaders-company" class="block text-slate-700 font-medium mb-2">Empresa</label>
-                                <input type="text" id="leaders-company" name="company" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                            <div>
-                                <label for="leaders-company-size" class="block text-slate-700 font-medium mb-2">Nº de funcionários</label>
-                                <input type="number" id="leaders-company-size" name="company_size" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="leaders-direct-reports" class="block text-slate-700 font-medium mb-2">Nº de pessoas que respondem a você</label>
-                            <input type="number" id="leaders-direct-reports" name="direct_reports" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                        </div>
-                        <div>
-                            <label for="leaders-challenge" class="block text-slate-700 font-medium mb-2">Qual é o seu maior desafio?</label>
-                            <textarea id="leaders-challenge" name="challenge" rows="3" class="w-full p-3 border border-slate-300 rounded-lg"></textarea>
-                        </div>
-                         <div>
-                            <label for="leaders-motivation" class="block text-slate-700 font-medium mb-2">Qual sua maior motivação ao buscar esta solução?</label>
-                            <textarea id="leaders-motivation" name="motivation" rows="3" class="w-full p-3 border border-slate-300 rounded-lg"></textarea>
-                        </div>
-                    </div>
-                    <div class="mt-8 text-right">
-                        <button type="submit" class="px-8 py-3 bg-violet-600 text-white font-bold rounded-lg hover:bg-violet-700 transition">Enviar</button>
-                    </div>
-                </form>
-            </div>
-
-            <!-- Formulário: Liderança e Maternidade -->
-            <div id="form-maternity" class="form-container">
-                <form action="https://formspree.io/f/xjkodgwp" method="POST">
-                    <input type="hidden" name="solution_type" value="Apoio à Liderança e Maternidade">
-                    <div class="space-y-4">
-                        <div>
-                            <label class="block text-slate-700 font-medium mb-2">Qual o seu momento?</label>
-                            <select name="maternity_moment" class="w-full p-3 border border-slate-300 rounded-lg bg-white" required>
-                                <option value="" disabled selected>Selecione uma opção</option>
-                                <option value="planejando_gravidez">Planejando uma gravidez</option>
-                                <option value="gravida_planejando_licenca">Grávida e planejando a minha licença maternidade</option>
-                                <option value="retorno_proximo">Retorno da licença maternidade se aproximando</option>
-                                <option value="voltei_perdida">Voltei da licença e estou perdida</option>
-                            </select>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                           <div>
-                                <label for="maternity-name" class="block text-slate-700 font-medium mb-2">Nome</label>
-                                <input type="text" id="maternity-name" name="name" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                             <div>
-                                <label for="maternity-email" class="block text-slate-700 font-medium mb-2">E-mail</label>
-                                <input type="email" id="maternity-email" name="email" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="maternity-role" class="block text-slate-700 font-medium mb-2">Cargo</label>
-                            <input type="text" id="maternity-role" name="role" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                        </div>
-                        <div>
-                            <label for="maternity-company" class="block text-slate-700 font-medium mb-2">Empresa</label>
-                            <input type="text" id="maternity-company" name="company" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="maternity-company-size" class="block text-slate-700 font-medium mb-2">Nº de funcionários</label>
-                                <input type="number" id="maternity-company-size" name="company_size" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                            <div>
-                                <label for="maternity-direct-reports" class="block text-slate-700 font-medium mb-2">Nº de liderados diretos</label>
-                                <input type="number" id="maternity-direct-reports" name="direct_reports" class="w-full p-3 border border-slate-300 rounded-lg" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-8 text-right">
-                        <button type="submit" class="px-8 py-3 bg-violet-600 text-white font-bold rounded-lg hover:bg-violet-700 transition">Enviar</button>
-                    </div>
-                </form>
             </div>
 
             <!-- Formulário: Comunidade (Multi-step) -->
@@ -569,3 +451,4 @@
 
 </body>
 </html>
+
